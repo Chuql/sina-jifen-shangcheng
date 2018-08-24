@@ -1,0 +1,93 @@
+/*问题分类*/
+.main{
+    margin-bottom: 120px;
+}
+.question{
+    float: left;
+    width: 265px;
+    background: #fff;
+}
+.question ul li:nth-child(1){
+    height: 40px;
+    line-height: 40px;
+    background: #ff4400;
+    border-bottom: 0;
+}
+.question ul li:nth-child(1) a{
+    color: #fff;
+}
+.question li{
+    position: relative;
+    width: 243px;
+    height: 50px;
+    padding-left: 22px;
+    font-size: 16px;
+    line-height: 50px;
+    border-bottom: 2px solid #f1f1f1;
+}
+.question li a{
+    float: left;
+}
+.question li i{
+    position: absolute;
+    top: 50%;
+    margin-top: -8px;
+    right: 20px;
+    width: 9px;
+    height: 16px;
+    background: url("../img/arr1.gif");
+}
+.question li:hover i{
+    background: url("../img/arr2.gif");
+}
+.question li:hover a{
+    color: #ff4400;
+}
+/*积分获取及使用*/
+.get{
+    float: right;
+    width: 902px;
+    padding: 4px 0 20px;
+    background: #fff;
+}
+.get .tit{
+    height: 48px;
+    border-bottom: 2px solid #f1f1f1;
+    margin: 0 24px;
+}
+.get h3{
+    float: left;
+    border-bottom: 2px solid #ff4400;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 48px;
+}
+.con{
+    position: relative;
+    margin: 6px 24px 0;
+    padding: 0 45px 16px 23px;
+    border-bottom: 1px dashed #f1f1f1;
+}
+.con h4{
+    line-height: 44px;
+}
+.con p{
+    line-height: 24px;
+    color: #737371;
+}
+.con i{
+    position: absolute;
+    top: 13px;
+    left: 0;
+    display: block;
+    width: 18px;
+    height: 18px;
+    background: #ff4400;
+    color: #fff;
+    text-align: center;
+    line-height: 18px;
+    border-radius: 50%;
+}
+.con_bottom{
+    border:0;
+}

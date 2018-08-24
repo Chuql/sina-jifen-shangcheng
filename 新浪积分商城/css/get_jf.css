@@ -1,0 +1,230 @@
+/*main*/
+.banner{
+    position: relative;
+    float: left;
+}
+.banner .ban_img img{
+    width: 819px;
+    height: 350px;
+}
+.banner .left,.banner .right{
+    position: absolute;
+    top: 50%;
+    margin-top: -27px;
+    width: 31px;
+    background: rgba(0,0,0,.5);
+    font:30px/53px "icomoon";
+    color: #ada69c;
+    text-align: center;
+    cursor: pointer;
+}
+.banner .left{
+    left: 0;
+    padding-left: 6px;
+}
+.banner .right{
+    right: 0;
+    padding-right: 6px;
+}
+.dot{
+    position: absolute;
+    bottom: 22px;
+    right: 31px;
+    padding-left: 9px;
+}
+.dot li{
+    float: left;
+    width: 30px;
+    margin-right: 9px;
+    border-radius: 50%;
+    background: rgba(255,255,255,.6);
+    text-align: center;
+    color:#000;
+    font: 12px/30px "微软雅黑";
+    cursor: pointer;
+}
+.dot .current{
+    background: #ff4304;
+    color: #fff;
+}
+.dot li:hover{
+    background: #ff4304;
+    color: #fff;
+}
+.aside{
+    float: right;
+    height: 350px;
+    background: #fff;
+}
+.aside_top{
+    padding: 0 52px;
+}
+.aside_top p{
+    width: 247px;
+    margin: 28px 0 26px;
+    background: #ff4401;
+    font: 24px/52px "icomoon";
+    color: #fff;
+    text-align: center;
+}
+.aside_bottom ul{
+    background: url("../img/aside_coin.png") no-repeat 56px top;
+    overflow: hidden;
+}
+.aside_use{
+    margin-top: 5px;
+}
+.aside_use a{
+    color: #ff4400;
+}
+.aside_bottom li {
+    width: 182px;
+    height: 34px;
+    margin-bottom: 16px;
+    margin-left: 112px;
+    background: #f2f1ef;
+    text-align: center;
+    line-height: 34px;
+    font-size: 18px;
+}
+.jfrw{
+    float: left;
+    width: 789px;
+    margin: 30px 0 80px;
+    padding: 25px 0  0 30px;
+    background: #fff;
+}
+.jfrw h3{
+    width: 125px;
+    margin-bottom: 22px;
+    border: 1px solid #f1f1f1;
+    border-top: 2px solid #ff4400;
+    line-height: 53px;
+    color: #ff4400;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+}
+.jfrw li{
+    float: left;
+    width: 367px;
+    height: 327px;
+    margin-right: 25px;
+}
+.jfrw li .a_img{
+    display: block;
+    margin-bottom: 13px;
+}
+.jfrw li span a{
+    display: inline-block;
+    width: 270px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 32px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    vertical-align:middle;
+}
+.jfrw li b{
+    color: #ff4400;
+    margin: 0 20px;
+}
+.jfrw li strong{
+    line-height: 28px;
+}
+.page{
+    padding: 26px 0 42px;
+    text-align: center;
+}
+.page b{
+    display: inline-block;
+    width: 46px;
+    line-height: 46px;
+    border: 1px solid #f1f1f1;
+    vertical-align: center;
+    cursor: pointer;
+}
+.page b:hover{
+    background: #ff4400;
+    color: #fff;
+}
+.page .btn1{
+    border-right: 0;
+}
+.jfrw .page .arr{
+    border: 0;
+    background: #fff;
+    color: #474747;
+}
+.page div{
+    display: inline-block;
+    margin-left: 20px;
+    vertical-align: middle;
+}
+.page div input{
+    width: 32px;
+    height: 32px;
+    border: 1px solid #cecece;
+    vertical-align: middle;
+    text-align: center;
+}
+.page .click{
+    display: inline-block;
+    width: 94px;
+    height: 48px;
+    margin-left: 22px;
+    background: #ff4400;
+    font-size: 18px;
+    vertical-align: middle;
+    color: #fff;
+    text-align: center;
+    line-height: 48px;
+}
+.today_jf {
+    float: right;
+    width: 351px;
+    margin-top: 30px;
+    padding: 2px 0 70px;
+    background: #fff;
+}
+.today_jf h3{
+    margin: 0 25px;
+    padding-left: 32px;
+    border-bottom: 2px solid #ff4400;
+    background: url("../img/today_icon.png") no-repeat left center;
+    font: 700 16px/48px "微软雅黑";
+}
+.today_jf .today_pro{
+    position: relative;
+    padding: 22px 0 32px 70px;
+    background: url("../img/huangguan.png") no-repeat 26px 26px;
+}
+.today_jf .today_pro img{
+    float: left;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+}
+.today_pro div{
+    margin-left: 106px;
+}
+.today_pro p{
+    line-height: 26px;
+}
+.today_pro b{
+    line-height: 24px;
+    color: #ff4400;
+}
+.today_pro i{
+    position: absolute;
+    top: 47px;
+    left: 25px;
+    display: block;
+    width: 26px;
+    border-radius: 50%;
+    background: #ff4400;
+    color: #fff;
+    text-align: center;
+    line-height: 26px;
+}

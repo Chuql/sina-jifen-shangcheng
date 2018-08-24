@@ -1,0 +1,214 @@
+@charset "utf-8";
+/*main*/
+.main{
+    background: #fff;
+    padding-bottom: 35px;
+    margin-bottom: 30px;
+}
+.main_top{
+    padding: 22px 0 19px;
+    margin-left: 30px;
+}
+.main_top a{
+    color: #ff4400;
+}
+.main_top a:hover{
+    text-decoration: underline;
+}
+.main_left{
+    position: relative;
+    float: left;
+    margin: 0 60px 0 30px;
+    border: 1px solid #ccc;
+    overflow: hidden;
+}
+.main_left img{
+    width: 338px;
+    height: 398px;
+    transition: all 0.8s;
+}
+.main_left img:hover{
+    transform: scale(1.2);
+}
+.main_left i{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 95px;
+    height: 67px;
+    background: url("../img/pic_label.png") no-repeat -96px 1px;
+}
+.main_right {
+    float: left;
+    font-size: 16px;
+    line-height: 48px;
+}
+.main_right .pro_tit{
+    width: 740px;
+    margin-bottom: 15px;
+}
+.main_right h3{
+    padding-bottom: 9px;
+    border-bottom: 1px solid #ddd5cb;
+    font: 700 18px/42px "微软雅黑";
+}
+.main_right p b{
+    font-size: 18px;
+    color: #ff4400;
+}
+.main_right .dhsl span{
+    float: left;
+}
+.main_right .dhsl .minus,.main_right .dhsl .add{
+    display: block;
+    width: 28px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    background: #f1f1f1;
+    text-align: center;
+    line-height: 28px;
+}
+.main_right .dhsl .unb{
+    display: block;
+    width: 49px;
+    margin-top: 10px;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+    line-height: 28px;
+}
+.main_right .dhsl .sign{
+    margin-left: 8px;
+    font: 12px/53px "微软雅黑";
+    color: #949090;
+}
+.main_right .btn{
+    display: block;
+    width: 200px;
+    margin-top: 13px;
+    background: #ff4401;
+    font-size: 18px;
+    color: #fff;
+    text-align: center;
+    line-height: 40px;
+}
+.main_right .btn:hover{
+    background: #d33800;
+    font-weight: 700;
+}
+/*商品描述*/
+.decarotion{
+    margin-bottom: 80px;
+}
+.decarotion_left {
+    float: left;
+    width: 760px;
+    padding: 5px 25px 70px;
+    background: #fff;
+}
+.decarotion_left .tit{
+    border-bottom: 2px solid #f1f1f1;
+    height: 46px;
+}
+.decarotion_left h3{
+    float: left;
+    border-bottom: 2px solid #fc4500;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 46px;
+}
+.decarotion_left  .text{
+    margin-bottom: 28px;
+}
+.decarotion_left  .text p{
+    margin-bottom: 20px;
+    line-height: 20px;
+}
+.decarotion_left img{
+    width: 760px;
+    height: 2162px;
+}
+/*热门商品*/
+.decarotion_right{
+    position: relative;
+    float: right;
+    width: 301px;
+    padding: 5px 25px 17px;
+    background: #fff;
+}
+.decarotion_right h3{
+    padding-left: 30px;
+    border-bottom: 2px solid #f1f1f1;
+    background: url("../img/pro_tit_xing.png") no-repeat left center;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 46px;
+}
+.decarotion_right span{
+    float: left;
+    width: 148px;
+    margin-top: -1px;
+    border: 1px solid #f1f1f1;
+    text-align: center;
+    font: 16px/41px "微软雅黑";
+    cursor: pointer;
+}
+.decarotion_right span:nth-child(2){
+    border-width: 1px 0 0 1px;
+    color: #ff4400;
+    font-weight: 700;
+}
+.decarotion_right .underline{
+    position: absolute;
+    top: 51px;
+    left: 26px;
+    width: 148px;
+    height: 2px;
+    background: #ff4400;
+}
+.decarotion_rt_pro{
+    position: relative;
+    clear:both;
+    padding: 25px 0 25px 56px;
+    border-bottom: 1px solid #f1f1f1;
+}
+.decarotion_rt_pro i{
+    position: absolute;
+    top: 25px;
+    left: 0;
+    display: block;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid rgba(255,68,0,.5);
+    text-align: center;
+    line-height: 30px;
+}
+.aside_img{
+    float: left;
+    width: 90px;
+    height: 106px;
+    margin-right: 16px;
+    overflow: hidden;
+}
+.aside_img img{
+    width: 90px;
+    height: 106px;
+    transition: all .8s;
+}
+.aside_img img:hover{
+    transform: scale(1.2);
+}
+.aside_p{
+    float: left;
+    width: 130px;
+    line-height: 24px;
+}
+.aside_p p{
+    margin-top: 8px;
+    color: #ff4400;
+}
+.last{
+    border-bottom: 0;
+}
